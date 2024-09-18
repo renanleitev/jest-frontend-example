@@ -4,7 +4,8 @@
 
 ## Runing
 - Use `npm ci` to restore dependencies
-- Use `npm start` to run the app on thr browser
+- Use `npm update` to update all the installed dependencies
+- Use `npm start` to run the app on the browser (e.g. `localhost:8080`)
 - Use `npm test` to run the unit test suite
 - Use `npm run test:cov` to get code coverage insights
 - Use `npm run test:watch` to run all suites with code watcher enable
@@ -17,7 +18,3 @@
 
 ### App
 ![](./prints/app.png)
-
-
-## Author
-- [erickwendel](twitter.com/erickwendel_)
