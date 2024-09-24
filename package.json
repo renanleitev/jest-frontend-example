@@ -1,5 +1,5 @@
 {
-  "name": "@erickwendel/tdd-frontend-example",
+  "name": "@renanvieira/jest-frontend-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "start": "npx http-server -o"
   },
   "keywords": [],
-  "author": "erickwendel",
+  "author": "renanvieira",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.1.0"

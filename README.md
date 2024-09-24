@@ -1,16 +1,14 @@
-# Example of Unit Testing on the Browser with JavaScript, Jest and ECMAScript Modules 
+# Exemplos de testes unitários usando JavaScript, Jest e ECMAScript Modules 
 
- - This is an example of how you can run unit tests using Node.js even on your frontend files
+ - Este é um exemplo de como você pode rodar testes unitários usando Node.js em projetos frontend
 
-## Runing
-- Use `npm ci` to restore dependencies
-- Use `npm update` to update all the installed dependencies
-- Use `npm start` to run the app on the browser (e.g. `localhost:8080`)
-- Use `npm test` to run the unit test suite
-- Use `npm run test:cov` to get code coverage insights
-- Use `npm run test:watch` to run all suites with code watcher enable
-
-## Preview
+## Rodando a aplicação e os testes
+- Utilize `npm i` para instalar as dependências
+- Utilize `npm update` para atualizar as dependências
+- Utilize `npm start` para iniciar a aplicação no browser (e.g. `localhost:8080`)
+- Utilize `npm test` para rodar todos os testes unitários
+- Utilize `npm run test:cov` para obter o relatório de cobertura dos testes (coverage)
+- Utilize `npm run test:watch` para obter o relatório enquanto modifica a aplicação
 
 ### Code Coverage
 
