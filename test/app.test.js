@@ -32,11 +32,13 @@ describe('#App', () => {
     describe('exemplos de testes com valores numéricos', () => {
         test('dado um valor, é possível comparar com outro valor', () => {
             // Dados mockados, mas poderiam vir de uma API
+            let idadeFulano;
             const idadeRenan = 27;
             const idadePedro = 30;
             const idadeLucas = 25;
 
-            // Checa se as variáveis foram instanciadas (diferente de undefined)
+            // Checa se as variáveis foram instanciadas
+            expect(idadeFulano).toBeUndefined();
             expect(idadeRenan).toBeDefined();
             expect(idadePedro).toBeDefined();
             expect(idadeLucas).toBeDefined();
